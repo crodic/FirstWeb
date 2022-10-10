@@ -1,0 +1,146 @@
+html{
+    background-color: #161833;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+    width: auto;
+    height: auto;
+}
+nav{
+    height: 100px;
+    margin-top: 0px;
+}
+.option ul{
+    list-style: none;
+    height: 50px;
+    padding-left: 0;
+}
+.option ul li{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 38px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+.option ul li a img{
+    width: 180px;
+    height: 32px;
+}
+.option ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.option ul .logo{
+    padding-right: 100px;
+    padding-left:0px;
+}
+.content h1{
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+.info{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    font-family: inherit;
+    padding: 0px 300px;
+    box-sizing: border-box;
+}
+.kinhlup{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.search{
+    text-align: center;
+    padding: 0 100px;
+}
+.search input{
+    border: 2px solid red;
+    width:55%;
+    height:50px;
+    border-radius: 10px;
+}
+.option ul li a:hover{
+    color: blue;
+}
+.news{
+    margin-top: 100px;
+    color: beige;
+    display: inline-block;
+}
+.news h2 u{
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    border-bottom: 3px solid rgb(255, 170, 0);
+}
+.info{
+    box-sizing: border-box;
+}
+.blog{
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+}
+.blog img{
+    width:88%;
+}
+.blog a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog a:hover{
+    color: red;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    color: white;
+}
+.left-footer{
+    width: 50%;
+}
+.end-footer ul{
+    list-style: none;
+}
+.end-footer{
+    text-align: center;
+    width: 25%;
+}
+.right-footer{
+    text-align: center;
+    width: 25%;
+}
+.right-footer ul{
+    list-style: none;
+}
+.list_style a{
+    color: white;
+    text-decoration: none;
+}
+.list_style a:hover{
+    color: red;
+}
+.blog .size{
+    font-size: 16px;
+}
