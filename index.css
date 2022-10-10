@@ -3,8 +3,16 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+:root{
+    --text-color: red;
+    --background-color: yellow;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 16px;
     padding: 0 10px;
     width: auto;
@@ -80,6 +88,16 @@ nav{
     margin-top: 100px;
     color: beige;
     display: inline-block;
+}
+.news .hiden-hover{
+    color: red;
+    text-decoration: none;
+    display: none;
+}
+.news:hover .hiden-hover{
+    color: aqua;
+    background-color: aliceblue;
+    display: block;
 }
 .news h2 u{
     font-size: 45px;
